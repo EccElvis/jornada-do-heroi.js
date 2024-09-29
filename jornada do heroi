@@ -1,0 +1,11 @@
+const posicaoInicial = parseInt(gets());
+const totalPassos = parseInt(gets());
+
+// cada passo move o heroi para uma posição à frente.
+const tamanhoDoPasso = 1;
+
+//Calculo da posição final:
+const posicaoFinal = posicaoInicial + (totalPassos * tamanhoDoPassos);
+
+//imprime a posição final
+print ("Posição final do heroi:", posicaoFinal);
